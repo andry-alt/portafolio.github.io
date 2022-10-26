@@ -1,0 +1,69 @@
+.formacion{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #EAF2FD;
+    border-radius: 5px;
+    margin-top: 8%;
+    margin-left: 10%;
+    margin-right: 10%;
+
+}
+.subtitulo5{
+    padding-top: 2%;
+    margin-bottom: 2%;
+    font-size: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+}
+
+.alura, .coder, .udemy{
+    background-color: #f9f9f9;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+    border-width: 1px;
+    border-style: none;
+    margin-left: 10%;
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+    margin-bottom: 4%;
+}
+
+.alura{
+ background-image: url(./imagenes/alura.webp);
+}
+
+.coder{
+    background-image: url(./imagenes/coder.webp);
+
+
+}
+
+.udemy{
+    background-image: url(./imagenes/udemy.png);
+
+}
+
+@media screen and (min-width: 0) {
+   .udemy{
+    margin-left: 25%;
+   }
+   .alura{
+    margin-left: 25%;
+   }
+   .coder{
+    margin-left: 25%;
+   }
+}
+
+@media screen and (min-width: 922px) {
+    .udemy{
+        margin-left: 10%;
+    }
+    .alura{
+        margin-left: 10%;
+    }
+    .coder{
+        margin-left: 10%;
+    }
+}

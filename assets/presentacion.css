@@ -1,0 +1,115 @@
+.redesSociales__Lista{
+    margin-top: 1%;
+    align-items: center;
+    margin-left: 25%;
+}    
+.redesSociales{
+    list-style: none;
+    display: inline;
+    padding-left: 3rem;
+
+}  
+a:link{
+    text-decoration: none;
+}  
+.imgRedesSociales{
+    width: 8px;
+    height: 8px;
+    top: 12px;
+    left: 23.31px;
+}
+
+.andry{
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -13%;
+    margin-right: 18%;
+    float: right;
+    width: 260px;
+    height: 260px;
+    border-radius: 100%;
+}
+.subtitulo2{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 25px;
+    padding-left: 20px;
+    padding-top: 10px;
+
+
+}
+.descripcion{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #EAF2FD;
+    border-radius: 5px;
+    margin-top: 8%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.textoDescripcion{
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+
+@media screen and (min-width: 0) {
+    .andry {
+    width: 130px;
+    height: 130px;
+    position: relative;
+    left: 70px;
+    top: 12px;
+    }
+    .textoDePresentacion{
+        margin-left: 10%;
+        text-align: left;
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-bottom: 10%;
+    }
+    .subtitulo{
+        margin-top: 5%;
+        margin-left: 0;
+        font-size: 20px;
+        text-align: center;
+    }
+    .descripcion{
+        margin-left: 15%;
+    }
+}
+
+
+@media screen and (min-width: 922px){
+    .andry{ 
+    width: 260px;
+    height: 260px;
+    margin-top: -13%;
+    margin-right: 18%;
+    float: right;
+    }
+    .textoDePresentacion{
+        padding-left: 2%;
+        padding-right: 0;
+        padding-bottom: 0;
+        border-radius: 5px;
+        margin-left: 10%;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+    }
+    .subtitulo{
+        margin-top: 0;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        margin-left: 12%;
+        text-align: left;
+        font-size: 30px;
+        margin-top: 5%;
+
+    }
+    .descripcion{
+        margin-left: 10%;
+    }
+    .textoDescripcion{
+        padding-bottom: 3%;
+    }
+    .subtitulo{
+        margin-top: 8%;
+    }
+}

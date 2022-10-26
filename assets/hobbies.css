@@ -1,0 +1,57 @@
+.subtitulo4{
+    margin-top: 5%;
+    font-size: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+}
+.hobbie1, .hobbie2, .hobbie3, .hobbie4{
+    background-color: #f9f9f9;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+    border-width: 1px;
+    border-style: none;
+    margin-left: 10%;
+    width: 120px;
+    height: 120px;
+    padding: 20px;
+}
+.hobbie1{
+    background-image: url(./imagenes/musica.png);
+}
+.hobbie2{
+    background-image: url(./imagenes/lectura.png);
+}
+
+.hobbie3{
+    background-image: url(./imagenes/viaje.png);
+}
+
+.hobbie4{
+    background-image: url(./imagenes/series.png);
+}
+
+
+@media screen and (min-width: 0) {
+    .hobbie1{
+        margin-left: 20%;
+    }
+
+    .hobbie3{
+        margin-left: 20%;
+        margin-top: 3%;
+    }
+
+    .subtitulo4{
+        margin-bottom: 3%;
+    }
+
+}
+@media screen and (min-width: 922px) {
+    .hobbie1{
+        margin-left: 15%;
+    } 
+    .hobbie3{
+        margin-left: 10%;
+    }
+}

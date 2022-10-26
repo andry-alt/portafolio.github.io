@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/contacto.css">
+    <link rel="stylesheet" href="./assets/experiencia.css">
+    <link rel="stylesheet" href="./assets/footer.css">
+    <link rel="stylesheet" href="./assets/formacion.css">
+    <link rel="stylesheet" href="./assets/habilidades.css">
+    <link rel="stylesheet" href="./assets/header.css">
+    <link rel="stylesheet" href="./assets/hobbies.css">
+    <link rel="stylesheet" href="./assets/normalize.css">
+    <link rel="stylesheet" href="./assets/presentacion.css">
+    <link rel="stylesheet" href="./assets/reset.css">
+ <title>Portafolio</title>
+</head>
+<body class="body">
+    <header class="header">
+        <h1 class="titulo">Andry Goldcheid</h1>
+        <nav class="barraNavegacion">
+            <ul>
+                <li class="nav">Sobre mi</li>
+                <li class="nav">Skills</li>
+                <li class="nav">Hobbies</li>
+                <li class="nav">Formacion</li>
+                <li class="nav">Proyectos</li>
+            </ul>
+        </nav>
+        <div class="correo">andrygoldcheid@hotmail.com</div>
+    </header>
+    <div class="presentacion">
+        <h2 class="subtitulo">Hola, mi nombre es Andry Goldcheid</h2>
+        <p class="textoDePresentacion">Soy estudiante del 3er grupo de Alura Latam + Oracle, tengo 20años, desde que tengo 13años<br> me ha gustado el mundo de la progrmación. Estoy muy agradecida con la oportunidad que<br> se me ha brindado en esta empresa.</p><img class="andry" src="./assets/imagenes/andry.jpg">
+        <ul class="redesSociales__Lista">
+            <li class="redesSociales"><a href="https://github.com/andry-alt">Github</a></li><img class="imgRedesSociales" src="./assets/imagenes/Vector.png">
+            <li class="redesSociales"><a href="https://www.linkedin.com/in/andry-goldcheid-65aa991a5/">Linkedin</a></li><img class="imgRedesSociales" src="./assets/imagenes/Vector.png">
+        </ul>
+    </div>
+    <div class="descripcion">
+        <h3 class="subtitulo2">Sobre mi</h3>
+        <p class="textoDescripcion">Me llamo Andry Goldcheid, nací en Venezuela actualmente resido en Chile, me dedico a la logística de despacho de una pymes especializada en rubro agricola. En la actualidad me encuentro estudiando progamación con enfoque hacia el lenguaje de React JS. </p>
+    </div>
+    <div class="skills">
+        <h4 class="subtitulo3">Skills</h4>
+        <button class="html"></button>
+        <button class="css"></button>
+        <button class="js"></button>
+        <button class="react"></button>
+    </div>
+    <div class="hobbie">
+        <h5 class="subtitulo4">Hobbies</h5>
+        <button class="hobbie1"></button>
+        <button class="hobbie2"></button>
+        <button class="hobbie3"></button>
+        <button class="hobbie4"></button>
+    </div>
+    <div class="formacion">
+        <h6 class="subtitulo5">Formacion Academica</h6>
+        <button id="estudio" class="alura"></button>
+        <button id="estudio" class="coder"></button>
+        <button id="estudio" class="udemy"></button>      
+    </div>
+    <div class="proyectos"><h6 class="subtitulo6">Proyectos</h6></div>
+    <section class="laboral">
+            <div class="card-grid">
+            <a class="card" href="https://github.com/andry-alt/andry-alt.github.io">
+                <div class="card-background" style="background-image: url(./assets/imagenes/codificador.jpg)"></div>
+                <div class="card-content">
+                    <p class="card-category"> Codificador de texto</p>
+                    <h3 class="card-heading"> ENCRIPTA TU TEXTO</h3>
+                    </div>
+                    </a>
+            <a class="card" href="https://github.com/andry-alt/andry-altjuego-del-ahorcado.github.io">
+                <div class="card-background" style="background-image: url(./assets/imagenes/ahorcado.webp)"></div>
+                <div class="card-content">
+                    <p class="card-category">Juego</p>
+                    <h3 class="card-heading"> JUEGO DEL AHORCADO</h3>
+                </div>
+            </a>
+        </div>
+
+    </section>
+    <section class="contacto">
+        <h6 class="subtitulo7">Contacto</h6>
+        <form class="formulario">
+            <label for="nombreapellido">Nombre y Apellido</label>
+            <input type="text" class="input-padron" required>
+
+            <label for="e-mail">E-mail</label>
+            <input type="text" class="input-padron" required>
+
+            <label for="telefono">Telefono</label>
+            <input type="text" class="input-padron" required>
+           
+            <label for="mensaje">Deja tu mensaje</label>
+            <textarea class="input-padron" label="Deja tu mensaje"></textarea>
+
+            <input type="submit" value="enviar formulario" class="enviar">
+        </form>  
+        
+    </section>
+    <footer>
+        <p class="footer">Creado por &#169Andry Goldcheid</p>
+    </footer>
+
+</body>
+</html>
